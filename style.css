@@ -1,0 +1,47 @@
+
+body {
+  font-family: sans-serif;
+  background: #b71c1c; /* red */
+  color: #00e676; /* green */
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  color: #00e676;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+#ronaldo {
+  width: 200px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: none;
+  background-color: #004d40;
+  color: #00e676;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00332e;
+}
+
+.store {
+  margin-top: 20px;
+}
